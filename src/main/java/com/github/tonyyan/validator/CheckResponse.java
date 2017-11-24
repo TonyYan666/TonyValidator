@@ -1,4 +1,4 @@
-package com.maxfunner.tony.validator;
+package com.github.tonyyan.validator;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Parameter;

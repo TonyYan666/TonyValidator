@@ -1,6 +1,6 @@
-package com.maxfunner.tony.validator.engine;
+package com.github.tonyyan.validator.engine;
 
-import com.maxfunner.tony.validator.CheckResponse;
+import com.github.tonyyan.validator.CheckResponse;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

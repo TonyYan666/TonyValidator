@@ -1,12 +1,12 @@
-package com.maxfunner.tony.validator;
+package com.github.tonyyan.validator;
 
-import com.maxfunner.tony.validator.engine.CheckEngine;
-import com.maxfunner.tony.validator.engine.impl.FigureCheckEngine;
-import com.maxfunner.tony.validator.engine.impl.FormatCheckEngine;
-import com.maxfunner.tony.validator.engine.impl.LengthCheckEngine;
-import com.maxfunner.tony.validator.engine.impl.NotEmptyCheckEngine;
-import com.maxfunner.tony.validator.stereotype.IgnoreCheck;
-import com.maxfunner.tony.validator.stereotype.NestedObjectCheck;
+import com.github.tonyyan.validator.engine.CheckEngine;
+import com.github.tonyyan.validator.engine.impl.LengthCheckEngine;
+import com.github.tonyyan.validator.engine.impl.NotEmptyCheckEngine;
+import com.github.tonyyan.validator.stereotype.IgnoreCheck;
+import com.github.tonyyan.validator.stereotype.NestedObjectCheck;
+import com.github.tonyyan.validator.engine.impl.FigureCheckEngine;
+import com.github.tonyyan.validator.engine.impl.FormatCheckEngine;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -57,7 +57,7 @@ public class TonyValidator {
     }
 
 
-    @Around("@annotation(com.maxfunner.tony.validator.stereotype.ParamVerification)")
+    @Around("@annotation(com.github.tonyyan.validator.stereotype.ParamVerification)")
     public Object checkParam(ProceedingJoinPoint joinPoint) throws Throwable {
         CheckResponse checkResponse = null;
         Set<Integer> ignoreSet = new HashSet<>();

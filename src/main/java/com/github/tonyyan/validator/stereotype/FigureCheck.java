@@ -1,4 +1,4 @@
-package com.maxfunner.tony.validator.stereotype;
+package com.github.tonyyan.validator.stereotype;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

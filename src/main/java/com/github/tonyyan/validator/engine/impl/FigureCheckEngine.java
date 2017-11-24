@@ -1,9 +1,9 @@
-package com.maxfunner.tony.validator.engine.impl;
+package com.github.tonyyan.validator.engine.impl;
 
-import com.maxfunner.tony.validator.CheckResponse;
-import com.maxfunner.tony.validator.engine.CheckEngine;
-import com.maxfunner.tony.validator.stereotype.FigureCheck;
-import com.maxfunner.tony.validator.utils.StringUtils;
+import com.github.tonyyan.validator.CheckResponse;
+import com.github.tonyyan.validator.engine.CheckEngine;
+import com.github.tonyyan.validator.stereotype.FigureCheck;
+import com.github.tonyyan.validator.utils.StringUtils;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

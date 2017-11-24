@@ -1,4 +1,4 @@
-package com.maxfunner.tony.validator;
+package com.github.tonyyan.validator;
 
 /**
  * Created by yanzhichao on 16/11/2017.
